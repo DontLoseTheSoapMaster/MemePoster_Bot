@@ -28,7 +28,7 @@ SSH_USER  = os.getenv("SSH_USER")
 SSH_KEY   = os.getenv("SSH_KEY")
 
 PG_HOST   = os.getenv("PG_HOST","127.0.0.1")
-PG_PORT   = int(os.getenv("PG_PORT","5432"))
+PG_PORT   = int(os.getenv("PG_PORT","my_port"))
 PG_DB     = os.getenv("PG_DB","postgres")
 PG_UID    = os.getenv("PG_UID","postgres")
 PG_PWD    = os.getenv("PG_PWD","")
