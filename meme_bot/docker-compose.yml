@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  meme-bot:
+    build: .
+    image: meme-bot:latest         # tag created by `build: .`
+    network_mode: host             # lets container reach local Postgres on 5432
+    environment:
+      TELEGRAM_TOKEN: ${TELEGRAM_TOKEN}
+      PG_HOST: localhost
+      PG_PORT: "5432"
+      PG_DB: "REMOVED"
+      PG_UID: "REMOVED"
+      PG_PWD: ${PG_PWD}
+      SSH_HOST: ""                 # blank > no tunnel
+    restart: unless-stopped

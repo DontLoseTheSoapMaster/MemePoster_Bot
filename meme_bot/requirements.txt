@@ -1,0 +1,5 @@
+python-telegram-bot==20.4
+requests
+giphy_client
+pyodbc
+sshtunnel          # harmless: the tunnel code won’t run if SSH_HOST is empty
