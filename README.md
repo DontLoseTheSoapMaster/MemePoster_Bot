@@ -11,3 +11,4 @@ and upload into the chat.
 third button about the language. If you choose - "Русский Язык" - the bot will try to find memes by key words firstly on russian services (pikabu) or
 in reddit, in pages, related to russian memes. If your choose "English version" - it will do vice versa. (notice. Language button in /start command - not 
 for this cases. It sets default language for your chat/user and just changes the bot messages from english to russian and vice versa)
+We will goin to update this. Firstly, we want to use pininterest API to improve searching by keywords algoritm
