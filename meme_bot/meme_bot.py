@@ -363,7 +363,7 @@ async def txt_handler(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         #pass
 # ─── main -------------------------------------------------------------------
 def main():
-    token = 'REMOVED'          # export or .env
+    token = 'my_token'          # export or .env
     app = ApplicationBuilder().token(token).build()
     app.add_handler(CommandHandler("start", cmd_start))
     app.add_handler(CommandHandler("get_meme", get_meme))
